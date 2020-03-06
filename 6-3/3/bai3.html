@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="review1.css">
+</head>
+<body>
+    <div id="div1">
+        <div class="div1-left">
+            HUST
+        </div>
+        <div class="div1-right">
+            <ul>
+                <li>About </li>
+                <li> Sign In </li>
+                <li> Sign Up</li>
+            </ul>
+        </div>
+    </div>
+    <div id="div2">
+        <div class="div2-left">
+            <ul>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+            </ul>
+        </div>
+        <div class="div2-right">
+            <div class="content">
+                <p class="p1"> &nbsp tech news</p>
+                <img src="Img/ip.jpg" alt="">
+                <p class="p2"> &nbsp Lorem ipsum dolor.</p>
+            </div>
+            <div class="content">
+                <p class="p1"> &nbsp tech news</p>
+                <img src="Img/ip.jpg" alt="">
+                <p class="p2"> &nbsp Lorem ipsum dolor.</p>
+            </div>
+            <div class="content">
+                <p class="p1"> &nbsp tech news</p>
+                <img src="Img/ip.jpg" alt="">
+                <p class="p2"> &nbsp Lorem ipsum dolor.</p>
+            </div>
+            <div class="content">
+                <p class="p1"> &nbsp tech news</p>
+                <img src="Img/ip.jpg" alt="">
+                <p class="p2"> &nbsp Lorem ipsum dolor.</p>
+            </div>
+            <div class="content">
+                <p class="p1"> &nbsp tech news</p>
+                <img src="Img/ip.jpg" alt="">
+                <p class="p2"> &nbsp Lorem ipsum dolor.</p>
+            </div>
+            <div class="content">
+                <p class="p1"> &nbsp tech news</p>
+                <img src="Img/ip.jpg" alt="">
+                <p class="p2"> &nbsp Lorem ipsum dolor.</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
+
+
+body{
+    background-image: url('Img/bg.jpg');
+}
+.div1-left{
+    font-size: 40px;
+    width: 15%;
+    display: inline-block;
+}
+.div1-right{
+    width: 79%;
+    display: inline-block;
+}
+.div1-right >ul{
+    list-style: none;
+    text-align: right;
+    width: 80%;
+}
+.div1-right >ul > li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.clear{
+    clear:both;
+}
+.div2-left{
+    width: 15%;
+    float:left;
+}
+.div2-left>ul>li{
+    list-style: none;
+    color:grey;
+}
+.div2-right{
+    width: 70%;
+    float:left;
+}
+.content{
+    width: 31%;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 1%;
+}
+.content>img{
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.p2{
+    position: absolute;
+    bottom:0px;
+    background-color:grey;
+    color:white;
+    width: 100%;
+    padding:10px 0;
+    margin:0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
